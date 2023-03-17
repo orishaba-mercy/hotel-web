@@ -1,0 +1,188 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+
+}
+.start{
+    background-image: url(interia.jpg);
+    /* background-attachment: fixed;   */
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding-top: 2%;
+
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    grid-template-columns: repeat(7,1fr);
+
+}
+.nav button{
+    color: white;
+    background-color: rgb(46, 46, 124);
+
+}
+#popu{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.sittingroom{
+    text-align: center;
+
+}
+
+.aboutus{
+    width: px;
+}
+
+.popular-hotels{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+
+}
+.popular-hotels img{
+    width: 80%;
+    height: 50%;
+    border-radius: 20px;
+    
+}
+.popular-hotels button{
+ padding: 10px;
+    width: 10%;
+ position: absolute;
+ bottom: 30%;
+ border-color: solid blue;
+ color: rgb(24, 163, 163);
+ font-size: 20px;
+ left: 40%;
+ border-radius: 20px;
+
+}
+#facilities1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.facilities{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+
+}
+.facilities img{
+    width: 40%;
+    height: 20vh;
+    border-radius: 50px;
+   
+}
+
+.room{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.luxuryrooms{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   
+}
+.luxuryrooms img{
+   width: 80%;
+   height: 30vh;
+   border-radius: 80px;
+    
+ }
+
+
+.meals{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.meals img{
+    width: 80%;
+    height: 40vh;
+    border-radius: 100px;
+}
+.comments{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.comments img{
+    width: 60%;
+    height: 30vh;
+    border-radius: 10px;
+}
+.replys{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10%;
+}
+.replys img{
+    width: 80%;
+    height: 60vh;
+    
+}
+.replys .offers img{
+    width: 5%;
+    height: 8vh;
+}
+.offers.button{
+    padding: 10px;
+    background-color: rgb(78, 128, 128);
+    border-radius: 10px;
+    border-color: none;
+} 
+
+#word{
+    text-align: center;
+}
+.subscribe{
+    text-align: center;
+    background-color: aqua;
+    color: aliceblue;
+}
+.subscribe button{
+    width: 70%;
+    background-color: white;
+    color: black;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: aliceblue;
+
+}
+.icon{
+    color:  rgb(38, 0, 255);
+}
+.menu{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10%;  
+    
+}
+.menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+.meals button{
+    padding: 10px;
+    background-color: rgb(78, 128, 128);
+    border-radius: 10px;
+    border-color: none;
+}
+#clients{
+    text-align: center;
+    padding-top: 8%;
+    
+}
