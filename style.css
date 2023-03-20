@@ -186,3 +186,58 @@
     padding-top: 8%;
     
 }
+
+@media (max-width:520px){
+    body{
+        font-size: small;
+    }
+    .popular-hotels{
+        
+        grid-template-columns: 1fr;
+        
+    
+    }
+    .popular-hotels button{
+        padding: 10px;
+           width: 40%;
+        position: absolute;
+        bottom: 30%;
+        border-color: solid blue;
+        color: rgb(24, 163, 163);
+        font-size: 20px;
+        left: 40%;
+        border-radius: 20px;
+       
+       }
+       .facilities{
+        
+        grid-template-columns: 1fr;
+    
+    }
+
+.luxuryrooms{
+    
+    grid-template-columns: 1fr;
+    
+ }
+ .meals{
+    
+    grid-template-columns: 1fr;
+}
+.comments{
+    
+    grid-template-columns: 1fr;
+
+}
+.replys{
+    
+    grid-template-columns: 1fr;
+    
+}
+.footer{
+    
+    grid-template-columns: 1fr;
+    
+
+}
+}
