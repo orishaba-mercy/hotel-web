@@ -1,0 +1,72 @@
+/* .body{
+padding: 0;
+margin: 0;
+} */
+.container{
+    background-color:gainsboro;
+}
+.nave a{
+    display: flex;
+    justify-content: space-between;
+    display: inline;
+    padding-inline-start: 10%;
+    text-decoration: none;
+    color: black;
+
+}
+.nave button{
+    width: 10%;
+    height: 8vh;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: rgb(50, 50, 218);
+    border-color: none;
+}
+
+.allviews{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.main img{
+    width: 80%;
+    height: 70vh;
+}
+.inside{ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.insideviews img{  
+    width: 20%;
+    height: 10vh;
+
+}
+.photo img{
+    width: 80%;
+    height: 20vh;
+    
+}
+.button1{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: -9%;
+    width: 80%;
+    height: 20vh;
+  
+}
+.charges{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.orders{
+    margin-left: 40%;
+    font-size: 130%;
+}
+.button2{
+    padding: 15px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: aliceblue;
+
+}
