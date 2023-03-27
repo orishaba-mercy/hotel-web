@@ -34,6 +34,13 @@
     border-radius: 10px;
 
 }
+.aboutus button{
+    width: 60%;
+    height: 8vh;
+    border-radius: 10px;
+    background-color: rgb(91, 91, 219);
+    color: aliceblue;
+}
 #log{
     color: blue;
 }
@@ -145,7 +152,7 @@
     height: 8vh;
 }
 .offers button{
-    background-color: rgb(78, 128, 128);
+    background-color: rgb(119, 83, 218);
     border-radius: 10px;
     border-color: none;
     width: 20%;
@@ -164,7 +171,7 @@
 }
 .subscribe button{
     width: 70%;
-    background-color: rgb(27, 116, 27);
+    background-color: rgb(36, 43, 133);
     color: black;
     width: 30%;
     height: 7vh;
@@ -192,7 +199,7 @@
 }
 .meals button{
     padding: 10px;
-    background-color: rgb(78, 128, 128);
+    background-color: rgb(73, 53, 184);
     border-radius: 10px;
     border-color: none;
 }
@@ -218,7 +225,7 @@
         position: absolute;
         bottom: 30%;
         border-color: solid blue;
-        color: rgb(24, 163, 163);
+        color: rgb(223, 219, 230);
         font-size: 20px;
         left: 40%;
         border-radius: 20px;
