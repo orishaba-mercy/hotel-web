@@ -1,7 +1,7 @@
-/* .body{
+body{
 padding: 0;
 margin: 0;
-} */
+} 
 .container{
     background-color:gainsboro;
 }
@@ -16,11 +16,14 @@ margin: 0;
 }
 .nave button{
     width: 10%;
-    height: 8vh;
+    height: 5vh;
     border-radius: 20px;
     font-size: 16px;
-    background-color: rgb(50, 50, 218);
+    background-color: rgb(181, 181, 231);
     border-color: none;
+}
+#log{
+    color: blue;
 }
 
 .allviews{
@@ -45,12 +48,14 @@ margin: 0;
     height: 20vh;
     
 }
-.button1{
+#button{
     text-align: center;
     margin-left: 20%;
     margin-top: -9%;
-    width: 80%;
-    height: 20vh;
+    width: 15%;
+    height: 5vh;
+    border-radius: 8px;
+    background-color: rgb(197, 197, 240);
   
 }
 .charges{
@@ -61,12 +66,62 @@ margin: 0;
     margin-left: 40%;
     font-size: 130%;
 }
-.button2{
-    padding: 15px;
-}
+
+
 .footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background-color: aliceblue;
+
+}
+@media (max-width:520px){
+    body{
+        font-size: small;
+    }
+   .nave a{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   } 
+   .nave button{
+    width: 30%;
+    height: 4vh;
+   }
+   .allviews{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .main img{
+    width: 70%;
+    height: 40vh;
+}
+.photo img{
+    width: 60%;
+    height: 10vh;
+    
+}
+.charges{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.orders{
+    margin-left: 30%;
+    font-size: 100%;
+}
+#button{
+    margin-left: 15%;
+    margin-top: -9%;
+    width: 25%;
+    height: 4vh;
+    border-radius: 8px;
+    background-color: rgb(197, 197, 240);
+  
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+
+}
+
 
 }
