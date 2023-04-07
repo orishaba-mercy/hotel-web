@@ -2,9 +2,11 @@
     padding: 0px;
     margin: 0px;
 
+
 }
 .container{
     background-color: gainsboro;
+    
 }
 .start{
     background-image: url(interia.jpg);
@@ -28,18 +30,21 @@
 }
 .nav button{
     color: white;
-    background-color: rgb(46, 46, 124);
+    background-color: rgb(57, 57, 223);
     width: 60%;
     height: 5vh;
     border-radius: 10px;
+    border: none;
 
 }
+
 .aboutus button{
     width: 60%;
     height: 8vh;
     border-radius: 10px;
-    background-color: rgb(91, 91, 219);
+    background-color: rgb(60, 60, 241);
     color: aliceblue;
+    border: none;
 }
 #log{
     color: blue;
@@ -76,10 +81,11 @@
  position: absolute;
  bottom: 30%;
  border-color: solid blue;
- color: rgb(24, 163, 163);
+ color: white;
  font-size: 20px;
  left: 40%;
  border-radius: 20px;
+ border: none;
 
 }
 #facilities1{
@@ -152,12 +158,13 @@
     height: 8vh;
 }
 .offers button{
-    background-color: rgb(119, 83, 218);
+    background-color: rgb(100, 48, 241);
     border-radius: 10px;
     border-color: none;
     width: 20%;
     height: 10vh;
     font-size: 20px;
+    border: none;
 } 
 
 #word{
@@ -172,10 +179,11 @@
 .subscribe button{
     width: 70%;
     background-color: rgb(36, 43, 133);
-    color: black;
+    color: aliceblue;
     width: 30%;
     height: 7vh;
     border-radius: 10px;
+    border: none;
 }
 .footer{
     display: grid;
@@ -184,7 +192,8 @@
 
 }
 .icon{
-    color:  rgb(38, 0, 255);
+    color:orange;
+    font-size: 15px;
 }
 .menu{
     text-align: center;
@@ -199,7 +208,7 @@
 }
 .meals button{
     padding: 10px;
-    background-color: rgb(73, 53, 184);
+    background-color: rgb(82, 54, 241);
     border-radius: 10px;
     border-color: none;
 }
@@ -212,6 +221,13 @@
 @media (max-width:520px){
     body{
         font-size: small;
+    }
+    .nav a{
+        text-decoration: none;
+        color: black;
+        display: flex;
+        grid-template-rows:repeat(1fr);
+
     }
     .popular-hotels{
         
@@ -229,6 +245,7 @@
         font-size: 20px;
         left: 40%;
         border-radius: 20px;
+        border: none;
        
        }
        .facilities{
